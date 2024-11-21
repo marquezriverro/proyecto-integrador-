@@ -1,0 +1,62 @@
+.Card {
+	width: 300px;
+	height: 480px;
+	background: white;
+	border-radius: 10px;
+	box-shadow: 0px 1px 10px 1px black;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 110px;
+}
+.upperCard {
+	height: 100px;
+	background: linear-gradient(to left, #2d00f7, #ff0291);
+}
+.imageContainer {
+	img {
+		background: skyblue;
+		width: 100px;
+		height: 100px;
+		border-radius: 35%;
+		padding: 5px;
+		transform: translate(95px, 45px);
+	}
+}
+img {
+	border: 2px solid #8e00b9;
+}
+.lowerCard {
+	margin-top: 60px;
+	height: 300px;
+	background: white;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	h3 {
+		color: #2f2d2e;
+		font-weight: 600;
+		font-size: 1.5rem;
+	}
+	h4 {
+		margin: inherit;
+		color: #8e00b9;
+		font-weight: 700;
+		font-size: 1.2rem;
+	}
+}
+button {
+	color: 2f2d2e;
+	font: bold;
+	background-color: white;
+	border: 2px solid #8e00b9;
+	margin: inherit;
+	padding: 0.6rem;
+	border-radius: 6px;
+	transition-duration: 0.5s;
+	animation: ease-in-out;
+	&:hover {
+		background-image: linear-gradient(to left, #2d00f7, #ff0291);
+		transform: scale(1.2);
+		border: none;
+		color: white;
+	}
+}

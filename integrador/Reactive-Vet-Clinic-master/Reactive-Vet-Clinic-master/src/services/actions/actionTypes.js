@@ -1,0 +1,5 @@
+export const REGISTER_USER = 'REGISTER_USER';
+export const LOG_IN = 'LOG_IN';
+export const CREATE_APPOINTMENT = 'CREATE_APPOINTMENT';
+export const REGISTER_PET = 'REGISTER_PET';
+
